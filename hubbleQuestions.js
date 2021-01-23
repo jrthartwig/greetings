@@ -1,0 +1,31 @@
+const hubbleQuestions = [
+    "Are the colors in Hubble images real?",
+    "Can Hubble see the Apollo Landing sites on the Moon?",
+    "Can Hubble take pictures of earth?",
+    "Can we see live photos from Hubble?",
+    "Are all Hubble data available to the public?",
+    "Why do some Hubble images have a stair-shaped corner?",
+    "Who was Edwin Hubble?",
+    "What were Hubble's original mission objectives?",
+    "When was the Hubble Space Telescope launched?",
+    "Where is Hubble?",
+    "Why is Hubble a space telescope?",
+    "How do Hubble's mirrors work?",
+    "What are Hubble's science instruments?",
+    "When was Hubble serviced?",
+    "What is the longevity of Hubble?",
+    "How old is the universe?",
+    "How big is the universe?",
+    "In what sense is the universe standing?",
+    "What is dark matter?",
+    "What is a black hole?",
+    "What is dark energy?",
+    "How is a black hole created?",
+    "Do all stars become back holes?",
+    "Since light has no mass, how can it be trapped by the gravitational pull of a black hole?",
+    "What does a black hole look like?",
+    "What is a galaxy?",
+    "Where is the Earth in the Milky Way galaxy?"
+]
+
+module.exports = hubbleQuestions;
