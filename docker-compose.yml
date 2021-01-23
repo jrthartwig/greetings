@@ -1,0 +1,15 @@
+version: '3.7' #version of docker-compose 
+
+services:
+
+  server:
+    container_name: greetings-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - 3001:3001
+    command: ["bash", "-c", "node index.js"]
